@@ -1,0 +1,55 @@
+@import url(http://localhost:63342/frontend-html-css-concept-opdracht/index.html?_ijt=k5p124bovrkespsqmd2a4o23m2&_ij_reload=RELOAD_ON_SAVE);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-family: Merriweather, sans-serif;
+    background-color: #4845E4;
+    color: aliceblue;
+    text-align: center;
+    height: 500px;
+}
+.nav-1{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    justify-content: flex-end;
+
+}
+ul{
+display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-basis: 400px;
+}
+h1{
+    margin-top: 80px;
+}
+h4{
+    margin: 30px;
+}
+.button-1{
+    background-color: #ED4385;
+    border-radius: 50px;
+    font-family: inherit;
+    color: aliceblue;
+    padding: 20px 40px;
+    border-style: none;
+    box-shadow: 2px 2px 2px 2px rgba(17,15,17,0.27);
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.sec-1{
+    font-family: "Roboto Light", sans-serif;
+    color: #5722CD;
+    text-align: center;
+    height: 200px;
+    margin: 20px;
+    font-weight: bold;
+
+}
